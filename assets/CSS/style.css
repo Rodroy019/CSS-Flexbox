@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+.flex{
+    display: flex;
+    
+}
+.flex-container{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.flex-menu{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 9em;
+    background-color: aqua;
+    min-height: 100vh;
+}
+/* Colores */
+
+.white {
+color: #fff
+}
+.Platinum {
+    color: #E8EBE4
+}
+.gray {
+    color: #BEC1BB
+}
+.blue-bell {
+    color: #A491D2
+}
+.soap {
+    color: #CDC3E6
+}
+.pale-lavender {
+    color: #D2DCFF
+}
+.dark-jungle {
+    color: #1b1F21
+}
+.outer-space {
+    color: #444749
+}
+.old-silver {
+    color: #828485
+}
