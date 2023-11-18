@@ -19,6 +19,7 @@ body{
     width: 20%;
     background-color: #FFF;
     min-height: 100vh;
+    flex-direction: column;
 }
 /* Colores */
 
@@ -72,12 +73,21 @@ color: #fff
 
 .card {
     display: flex; 
-    flex-direction: column; 
-    width: 10em;
+    flex-direction: row;
     border: solid 1px; 
-    margin: 5px;
-    padding: 5px;
     }
+
 #contactos img{
     border-radius: 50px;
+}
+
+button{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 50px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: whitesmoke;
+    background-color: #A491D2;
 }
