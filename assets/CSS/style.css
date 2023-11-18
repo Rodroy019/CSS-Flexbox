@@ -1,21 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;400;700&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
 .flex{
     display: flex;
-    
 }
-.flex-container{
-    display: flex; 
-    flex-direction: column;
+.flex-center{
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+.flex-container{
     text-align: center;
 }
 .flex-menu{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 9em;
-    background-color: aqua;
+    width: 20%;
+    background-color: #FFF;
     min-height: 100vh;
 }
 /* Colores */
@@ -46,4 +48,24 @@ color: #fff
 }
 .old-silver {
     color: #828485
+}
+
+#principal {
+    background-color: #E8EBE4;
+    width: 80%;
+    min-height: 100vh;
+}
+#principal h1{
+    font-size: 45px;
+    font: x-large;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+#principal p{
+    font-size: 24px;
+    font: medium;
+    font-weight: 400;
+}
+#principal img {
+    width: 300px;
 }
