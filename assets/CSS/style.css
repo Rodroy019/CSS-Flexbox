@@ -69,3 +69,15 @@ color: #fff
 #principal img {
     width: 300px;
 }
+
+.card {
+    display: flex; 
+    flex-direction: column; 
+    width: 10em;
+    border: solid 1px; 
+    margin: 5px;
+    padding: 5px;
+    }
+#contactos img{
+    border-radius: 50px;
+}
