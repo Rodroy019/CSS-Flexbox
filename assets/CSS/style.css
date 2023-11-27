@@ -65,6 +65,7 @@ color: #fff
 .card {
     flex-direction: row;
     border-top: solid 1px #828485;
+    justify-content: start;
 
     }
 
@@ -119,14 +120,17 @@ menu ul{
     flex-direction: column;
    }
 
-   menu li{
+menu li{
     padding: 0em;
     list-style: none;
    }
 
-   menu {
+menu {
     width: 10em;
    }
+menu p{
+    
+}
 
 h4{
     padding: 0;
